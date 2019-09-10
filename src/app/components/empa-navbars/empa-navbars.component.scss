@@ -1,0 +1,21 @@
+@import 'src/scss/colors';
+.title-navbar {
+    width: 100%;
+    background-color: $fifth-color;
+    height: 120px;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75);
+    padding:10px 30px;
+    position: fixed;
+    top:0;
+    left:0;
+}
+
+.navbar-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-navbar {
+    height: 90px;
+}

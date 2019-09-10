@@ -1,0 +1,18 @@
+@import 'src/scss/colors';
+
+.bottom-footer {
+    width: 100%;
+    background-color: $fifth-color;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    left:0;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:100%;
+    flex-wrap: wrap;
+}

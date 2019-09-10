@@ -1,3 +1,14 @@
-/*body {
-    background-color: black;
-}*/
+@import 'src/scss/colors';
+@import './equalizer.scss';
+
+.new-font {
+    font-family: 'Fredoka One', bold;
+    color:$secundary-color;
+}
+
+.font-size-title {
+    font-size: 25px;
+    color:$primary-color;
+    text-align:justify;
+    margin-top: 30px;
+}
