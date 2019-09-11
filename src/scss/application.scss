@@ -2,8 +2,16 @@
 @import './equalizer.scss';
 
 .new-font {
-    font-family: 'Fredoka One', bold;
+    font-family: 'Fredoka One', normal;
+    color:$light-color;
+}
+
+.font-color {
     color:$secundary-color;
+}
+
+.font-color-two {
+    color:$fourth-color;
 }
 
 .font-size-title {
@@ -12,3 +20,9 @@
     text-align:justify;
     margin-top: 30px;
 }
+
+.main-panel {
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+  }

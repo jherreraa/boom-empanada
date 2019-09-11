@@ -1,0 +1,28 @@
+.form-layout {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  height: 800px;
+  width: 50%
+}
+
+.div-layout {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: center;
+  height: 400px;
+}
+
+.avatar {
+  height: 150px;
+}
+
+.imgcontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.text-alignment {
+  text-align: center;
+}

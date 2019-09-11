@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { EmpaHomeComponent } from './screens/empa-home/empa-home.component';
 import { EmpaNavbarsComponent } from './components/empa-navbars/empa-navbars.component';
 import { EmpaFooterComponent } from './components/empa-footer/empa-footer.component';
+import { EmpaSigninComponent } from './screens/empa-signin/empa-signin.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EmpaHomeComponent,
     EmpaNavbarsComponent,
-    EmpaFooterComponent
+    EmpaFooterComponent,
+    EmpaSigninComponent
   ],
   imports: [
     BrowserModule,
