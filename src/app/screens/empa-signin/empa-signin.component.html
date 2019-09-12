@@ -1,25 +1,16 @@
 <app-empa-navbars></app-empa-navbars>
 <div class="main-panel">
-<form class="form-layout">
-  <div class="div-layout">
-    <div class="imgcontainer">
-      <img src="assets/empa-icon3.png" alt="Avatar" class="avatar"> 
+  <form class="form-container" [formGroup]="loginForm" (ngSubmit)="submitLogin()" >
+    <img src="assets/empa-icon3.png" alt="Avatar" class="avatar">
+    <div class="input-container">
+      <label class="new-font font-color label-style">Email</label>
+      <input class="input-style font-color" type="email" formControlName="email">
     </div>
-    <label class="new-font font-color-two text-alignment"for="uname"><b>Usuario</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
-
-    <label class="new-font font-color-two text-alignment" for="psw"><b>Contraseña</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <button type="submit">Ingresar</button>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
-  </div>
-  <div class="form-layout">
-    <button type="button" >Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
-  </div>
-</form> 
+    <div class="input-container">
+        <label class="new-font font-color label-style">Password</label>
+        <input class="input-style font-color" type="password" formControlName="password">
+      </div>
+    <button class="new-font font-size-title button-style" type="submit" [disabled]="!loginForm.valid" >Ingresar</button>
+  </form>
 </div>
 <app-empa-footer></app-empa-footer>
